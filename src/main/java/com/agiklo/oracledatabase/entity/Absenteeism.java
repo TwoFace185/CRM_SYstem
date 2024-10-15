@@ -23,6 +23,7 @@ public class Absenteeism {
             allocationSize = 1,
             initialValue = 100
     )
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @ManyToOne(fetch = FetchType.EAGER)

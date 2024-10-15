@@ -10,6 +10,7 @@ CREATE TABLE public.types_of_transport
     CONSTRAINT types_of_transport_pkey PRIMARY KEY (code)
 )
 
+TABLESPACE pg_default;
 
 ALTER TABLE public.types_of_transport
     OWNER to postgres;

@@ -7,6 +7,8 @@ CREATE TABLE public.reasons_of_absenteeism
     CONSTRAINT reasons_of_absenteeism_pkey PRIMARY KEY (id)
 )
 
+TABLESPACE pg_default;
+
 ALTER TABLE public.reasons_of_absenteeism
     OWNER to postgres;
 

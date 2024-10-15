@@ -9,8 +9,6 @@ CREATE TABLE public.customers
     CONSTRAINT customers_pkey PRIMARY KEY (customer_id)
 )
 
-TABLESPACE pg_default;
-
 ALTER TABLE public.customers
     OWNER to postgres;
 

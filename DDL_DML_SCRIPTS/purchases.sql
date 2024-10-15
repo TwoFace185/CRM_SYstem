@@ -17,7 +17,6 @@ CREATE TABLE public.purchases
         ON DELETE NO ACTION
 )
 
-TABLESPACE pg_default;
 
 ALTER TABLE public.purchases
     OWNER to postgres;

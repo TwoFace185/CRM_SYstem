@@ -12,8 +12,6 @@ CREATE TABLE public.product_units
         ON DELETE NO ACTION
 )
 
-TABLESPACE pg_default;
-
 ALTER TABLE public.product_units
     OWNER to postgres;
 

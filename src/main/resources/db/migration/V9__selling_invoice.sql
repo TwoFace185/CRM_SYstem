@@ -14,6 +14,8 @@ CREATE TABLE public.selling_invoice
         ON DELETE NO ACTION
 )
 
+TABLESPACE pg_default;
+
 ALTER TABLE public.selling_invoice
     OWNER to postgres;
 

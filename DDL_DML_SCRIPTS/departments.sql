@@ -11,7 +11,6 @@ CREATE TABLE public.departments
         ON DELETE NO ACTION
 )
 
-TABLESPACE pg_default;
 
 ALTER TABLE public.departments
     OWNER to postgres;

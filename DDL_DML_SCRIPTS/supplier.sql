@@ -11,7 +11,6 @@ CREATE TABLE public.supplier
         ON DELETE NO ACTION
 )
 
-TABLESPACE pg_default;
 
 ALTER TABLE public.supplier
     OWNER to postgres;

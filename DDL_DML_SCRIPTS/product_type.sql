@@ -7,7 +7,6 @@ CREATE TABLE public.product_type
     CONSTRAINT product_type_pkey PRIMARY KEY (product_type_id)
 )
 
-TABLESPACE pg_default;
 
 ALTER TABLE public.product_type
     OWNER to postgres;
